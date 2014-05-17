@@ -1,0 +1,125 @@
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+html {
+	height:100%;
+	margin: 0;
+	padding: 0;
+
+}
+ 
+
+@font-face {
+ font-family: 'CoconLight';
+ src: url('../fonts/CoconLight.ttf'); 
+
+}
+
+/* @font-face {
+font-family: 'HelveticaNeue';
+src: url('../fonts/HelveticaNeue');
+} */
+
+
+body{
+	height: 100%;
+	margin: 0;
+	
+	background-color: #57aeb5;
+}
+.wrapper {
+	padding: 8px;
+	width: 320px;
+	margin: 0 auto 0 auto;
+	/*background: #61c4cc;*/
+}
+
+.menu {
+	
+}
+
+.logo {
+	margin: 20px auto 0 auto;
+	text-align: center;
+}
+
+
+.logo p {
+	font-family: 'CoconLight';
+	font-size: .95em;
+	color: #ededed;
+	margin-top: 3px;
+	margin-bottom: 29px;
+}
+
+.videoslide {
+	display: block;
+	width: 304px;
+	height: 177px;
+	background-color: #ffffff;
+	margin: 0;
+	padding: 0;
+}
+
+	.play {
+		margin-left: 124px;
+		margin-top: 61px;
+		position: absolute;
+		z-index: 1;
+	}
+
+	.video-content {
+		position: absolute;
+	}
+
+.button {
+	text-align: center;
+	font-family: Helvetica, Arial, Verdana, sans-serif;
+	text-decoration: none;
+	
+	font-size: .95em;
+	width: 200px;
+	height: 30px;
+	border-radius: 15px;
+	display: block;
+	margin: 0 0 0 50px;
+	/*margin: 0 auto 0 auto;  для вирівнювання по центру*/ 
+}
+
+.login {
+	padding-top: 5px;
+	margin-top: 35px;
+	color: white;
+	background-color: #e65734; 
+}
+
+.register{
+	padding-top: 7px;
+	margin-top: 10px;
+	color: #5d6262;
+	background-color: #eaebe6;
+}
+
+.buttonTell {
+	padding-top: 8px;
+	text-align: center;
+	font-family: Helvetica, Arial, Verdana, sans-serif;
+	text-decoration: none;
+	color: #fff;
+	display: block;
+	font-size: .75em;
+	width: 200px;
+	height: 34px;
+	border-radius: 17px;
+	text-decoration: none;
+	margin: 45px 0 4px 50px;
+	border: #b5dbdf 1px solid;
+
+}
+
+.buttonTell img {
+	margin-left: 5px;
+}
+
